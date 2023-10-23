@@ -7,3 +7,7 @@ local default_opts = { noremap = true, silent = true }
 
 -- Paste over currently selected text without yanking it
 keymap("v", "p", '"_dP', default_opts)
+
+-- vim-test
+-- nmap <silent> <leader>tt :TestNearest<CR>
+keymap("n", "<silent> <leader>tt", ":TestNearest<CR>")
