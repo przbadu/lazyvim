@@ -10,4 +10,4 @@ keymap("v", "p", '"_dP', default_opts)
 
 -- vim-test
 -- nmap <silent> <leader>tt :TestNearest<CR>
-keymap("n", "<silent> <leader>tt", ":TestNearest<CR>")
+-- keymap("n", "<silent> <leader>tt", ":TestNearest<CR>")
