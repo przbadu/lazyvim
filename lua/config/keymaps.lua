@@ -9,5 +9,9 @@ local default_opts = { noremap = true, silent = true }
 keymap("v", "p", '"_dP', default_opts)
 
 -- vim-test
--- nmap <silent> <leader>tt :TestNearest<CR>
--- keymap("n", "<silent> <leader>tt", ":TestNearest<CR>")
+-- Define key mappings for test commands
+keymap("n", "<leader>tt", ":TestNearest<CR>", default_opts)
+keymap("n", "<leader>tf", ":TestFile<CR>", default_opts)
+keymap("n", "<leader>ts", ":TestSuite<CR>", default_opts)
+keymap("n", "<leader>tl", ":TestLast<CR>", default_opts)
+keymap("n", "<leader>tg", ":TestVisit<CR>", default_opts)
