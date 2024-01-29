@@ -7,3 +7,6 @@ vim.cmd([[
       let test#strategy = "neovim"
       let test#neovim#term_position = "vert"
       ]])
+
+-- disable autoformat
+vim.g.autoformat = false
