@@ -15,3 +15,6 @@ keymap("n", "<leader>tf", ":TestFile<CR>", default_opts)
 keymap("n", "<leader>ts", ":TestSuite<CR>", default_opts)
 keymap("n", "<leader>tl", ":TestLast<CR>", default_opts)
 keymap("n", "<leader>tg", ":TestVisit<CR>", default_opts)
+
+-- autorun current ruby file
+keymap('n', "<leader>rr", ":term ruby % <CR>", default_opts)
