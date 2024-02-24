@@ -9,4 +9,4 @@ vim.cmd([[
       ]])
 
 -- disable autoformat
-vim.g.autoformat = true -- false
+vim.g.autoformat = false -- false
